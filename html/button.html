@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button</title>
+    <link rel="stylesheet" href="../css/button.css"/>
+</head>
+<body>
+
+
+<div class="button">Button</div>
+
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+
+<script type="text/javascript">
+
+    jQuery(function (jQuery) {
+        var button = jQuery(".button"),
+                curren_elemet;
+        button.on({
+            mouseenter: function () {
+                button.addClass('hover');
+            },
+            mouseleave: function () {
+                button.removeClass('hover');
+            },
+            mousedown: function () {
+                button.addClass('active');
+                curren_elemet = button;
+            }
+        });
+
+        jQuery(window).on({
+            mouseup: function () {
+                if (curren_elemet) {
+                    curren_elemet.removeClass('active');
+                    curren_elemet = undefined;
+                }
+            }
+        });
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+﻿DIVSHOT
+
+components
+
+
+
+Note:- /* “---->” For subComponents , “===>” For SubSubComponents
+##############################################################
+
+Alert 
+
+Aside element
+
+Badge
+
+Breadcrums
+	
+	----> crums
+
+Button
+	----> Button Dropdown
+	----> Button Dropdown(split)
+	----> Button Group
+	----> Button Toolbar
+
+Container
+
+Definition List
+
+Footer Element
+
+Form
+	----> CheckBox
+	----> Control Group
+	----> FormAction
+	----> Help Text
+	----> Radio
+	----> SelectDropdown
+	----> Text Area
+	----> TextField
+		===> TextField W/ Button
+		===> TextField W/ Prefix & Postfix
+		===> TextField W/ Postfix
+		===> TextField W/ Prefix
+	----> Form Label
+
+Header Element
+
+Heading
+
+Hero Unit
+
+Horizontal Rule
+
+Image
+
+Label
+
+MediaObject
+
+Menu
+	----> Menu Item
+	----> Menu List Divider
+	----> Menu List Header
+
+Nav Element
+
+NavigationBar
+	----> NavigationForm
+	----> SearchForm
+
+Ordered List
+
+Pager
+	----> Pager Item
+
+Pagination
+	----> Pagination Items
+
+Paragraph
+
+ProgressBar
+
+Row
+	----> Column
+
+SelectionElement
+
+Table
+
+Unordered List
+
+Well
+
+	
+
+TextFormating PopUp
+
+Bold
+
+Italics
+
+Underline
+
+Linkselected
+
+Align Left,Center,Right,Justify
+
+Unordered List
+
+Ordered List
+
+Outdent List
+
+Indent List
+
+Add Icon
+

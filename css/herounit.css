@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.hero {
+  border-style: solid;
+  border-width: 2px;
+  border-color: royalblue;
+  width: 400px;
+}
+div.hero > h1 {
+  font-size: 20;
+  font-family: Economica;
+}
+div.hero > p {
+  font-size: 6;
+  font-family: arial;
+}

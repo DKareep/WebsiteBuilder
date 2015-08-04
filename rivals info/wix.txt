@@ -1,0 +1,76 @@
+Wix
+####
+
+Text
+
+	Title
+	Paragraph
+
+Images
+
+	Image
+	Image without frames
+	Image with frames
+	Clipart
+
+﻿Gallery
+
+	Grid
+	Slideshow
+	slider
+	3D Slideshow
+	3D carousel
+	Animated
+
+Media
+	
+	Video
+	SoundCloudAudio
+	AudioPlayer
+
+Shapes & Lines
+
+	Box
+	Strip
+	Vertical Line
+	Horizontal Line
+	ClipArt
+
+Buttons & Menus
+
+	Default Button
+	Large Button
+	Emphasis Button
+	Text Button
+	Paypal
+	TextMenu
+
+OnlineStore
+
+	ProductGallery
+	Shoppin Carts
+	Vies=w Cart
+	Add To Cart Button
+	
+Social
+
+	Facebook Like 
+	Facebook CommentS
+	Twitter Follow
+	Twitter Tweet
+	Google +
+	Social Bar
+
+Apps
+
+	Contact Form
+	Google Maps
+	HTML
+	Flash
+	Paypal
+	Flickr Gallery
+	eBay
+	Admin/Web Master Login
+	Member Login Button
+
+ListBuilder

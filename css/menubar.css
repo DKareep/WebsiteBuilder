@@ -1,0 +1,112 @@
+/*
+
+*/
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #242424;
+}
+/* Main */
+#menu {
+  width: 90%;
+  margin: auto;
+  padding: 10px 0 0 0;
+  position: relative;
+  top: 10px;
+  list-style: none;
+  background: #111;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #111111), color-stop(1, #444444));
+  border-radius: 100px;
+  box-shadow: 2px 2px 2px #32cd32;
+}
+#menu li {
+  float: left;
+  padding: 0 0 10px 0;
+  position: relative;
+}
+#menu a {
+  float: left;
+  height: 25px;
+  padding: 0 25px;
+  color: #999;
+  text-transform: uppercase;
+  font: bold 12px/25px Arial, Helvetica;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #000;
+}
+#menu li:hover > a {
+  color: #fafafa;
+}
+#menu li:hover > ul {
+  display: block;
+}
+/* Sub-menu */
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  z-index: 99999;
+  background: #444;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #111111), color-stop(1, #444444));
+  border-radius: 5px;
+}
+#menu ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+}
+#menu ul li:last-child {
+  -webkit-box-shadow: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#menu ul a {
+  padding: 10px;
+  height: auto;
+  line-height: 1;
+  display: block;
+  white-space: nowrap;
+  float: none;
+  text-transform: none;
+}
+#menu ul a:hover {
+  background: #32cd32;
+  background: -webkit-gradient(linear, left top, left bottom, from(#32cd32), to(#32cd32));
+}
+#menu ul li:first-child a {
+  -webkit-border-radius: 5px 5px 0 0;
+}
+#menu ul li:first-child a:after {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: -8px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #444;
+}
+#menu ul li:first-child a:hover:after {
+  border-bottom-color: #32cd32;
+}
+#menu ul li:last-child a {
+  -webkit-border-radius: 0 0 5px 5px;
+}
+/*floated elements*/
+#menu:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}

@@ -1,0 +1,109 @@
+/*
+
+*/
+.green_progressbar_background {
+  margin: auto;
+  background: #242424;
+  position: relative;
+  top: 10%;
+  height: 40%;
+  width: 30%;
+}
+/*progress bar*/
+.green_progressbar {
+  height: 10px;
+  width: 40%;
+  position: relative;
+  top: 40%;
+  left: 30%;
+  background: #686868;
+  padding: 0;
+  overflow: hidden;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  box-shadow: 1px 1px 1px #777;
+  -moz-box-shadow: 1px 1px 1px #777;
+  -webkit-box-shadow: 0px 0px 25px #777;
+}
+.green_progressbar > span {
+  display: block;
+  height: 100%;
+  background-color: #0a6fd4;
+  overflow: hidden;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+/*gradient effect*/
+.green_progressbar > span {
+  box-shadow: 0 5px 5px rgba(255, 255, 255, 0.6) inset, 0 -5px 7px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 0 5px 5px rgba(255, 255, 255, 0.6) inset, 0 -5px 7px rgba(0, 0, 0, 0.4) inset;
+  -webkit-box-shadow: 0 5px 5px rgba(255, 255, 255, 0.6) inset, 0 -5px 7px rgba(0, 0, 0, 0.4) inset;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3f678f', endColorstr='#2e89e4', GradientType=0);
+}
+/*gloss effect*/
+.green_progressbar > span {
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 45%, rgba(0, 0, 0, 0.2) 55%, rgba(0, 0, 0, 0.1) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.2)), color-stop(45%, rgba(255, 255, 255, 0.1)), color-stop(55%, rgba(0, 0, 0, 0.2)), color-stop(100%, rgba(0, 0, 0, 0.1)));
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.1) 45%, rgba(0, 0, 0, 0.2) 55%, rgba(0, 0, 0, 0.1) 100%);
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 45%, rgba(0, 0, 0, 0.2) 55%, rgba(0, 0, 0, 0.1) 100%);
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 45%, rgba(0, 0, 0, 0.2) 55%, rgba(0, 0, 0, 0.1) 100%);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 45%, rgba(0, 0, 0, 0.2) 55%, rgba(0, 0, 0, 0.1) 100%);
+}
+/*strips in css*/
+.green_progressbar > span {
+  background-size: 30px 30px;
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(255, 255, 255, 0.2)), color-stop(25%, rgba(255, 255, 255, 0.2)), color-stop(25%, rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, 0.2)), color-stop(75%, rgba(255, 255, 255, 0.2)), color-stop(75%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0)));
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0) 100%);
+  background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0) 100%);
+}
+/*Animation */
+.green_progressbar > span {
+  animation: progress 4s linear infinite;
+  -moz-animation: progress 4s linear infinite;
+  -webkit-animation: progress 4s linear infinite;
+  -ms-animation: progress 4s linear infinite;
+  -o-animation: progress 4s linear infinite;
+}
+@-webkit-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 60px 60px;
+  }
+}
+@-moz-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 60px 60px;
+  }
+}
+@-ms-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 60px 60px;
+  }
+}
+@-o-keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 60px 60px;
+  }
+}
+@keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 60px 60px;
+  }
+}

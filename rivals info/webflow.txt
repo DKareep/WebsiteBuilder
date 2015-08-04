@@ -1,0 +1,48 @@
+WebFlow
+########
+
+Layout
+
+	Section
+	Container
+	Column
+
+Basics
+
+	Block
+	LinkBlock
+	Button
+
+Typography
+
+	Heading
+	Paragraph
+	TextLink
+	TextBlock
+
+Media
+
+	Image 
+	Video
+	Embed
+
+Forms
+
+	FormBlock
+	Label
+	Input
+	TextArea
+	Button
+
+
+/* in settings they have included some HTML5 tags*/
+
+	Div
+	Header
+	Footer
+	Nav
+	Section
+	Article
+	Aside
+	BQuote
+	﻿

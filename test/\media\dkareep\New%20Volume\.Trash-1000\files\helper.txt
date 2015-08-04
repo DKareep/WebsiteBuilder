@@ -1,0 +1,248 @@
+black
+grey
+darkdrey
+
+
+
+
+
+.cont_obj_hover{
+   border: 2px solid #E9415A;
+
+  resize: none;
+  overflow: none;
+  cursor: pointer;
+}
+
+
+
+
+.mul_obj:hover{
+   border: 2px solid #E9415A;
+
+  resize: none;
+  overflow: none;
+  cursor: pointer;
+}
+
+
+.shape_obj:hover{
+   border: 2px solid #E9415A;
+
+  resize: none;
+  overflow: none;
+  cursor: pointer;
+}
+
+
+
+
+
+.text_obj:hover{
+   border: 2px solid #E9415A;
+
+  resize: none;
+  overflow: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.nav_obj:hover{
+   border: 2px solid #E9415A;
+
+  resize: none;
+  overflow: none;
+  cursor: pointer;
+}
+
+
+.misc_obj:hover{
+   border: 2px solid #E9415A;
+
+  resize: none;
+  overflow: none;
+  cursor: pointer;
+}
+
+
+.obstyle{
+  border: 2px solid #53A9AC;
+
+}
+
+
+
+///////////////////////////
+
+
+dyanamic css
+
+
+////////////////////////
+
+
+
+
+  .on( "mouseleave", function() {
+    var styles = {
+      backgroundColor : "#ddd",
+      fontWeight: ""
+    };
+    $( this ).css( styles );
+  });
+
+
+
+
+ http://api.jquery.com/css/#css-propertyName-functionindex--value
+
+
+
+/////////////////
+
+
+
+
+
+class core
+  constructor : (@id, @clss)->
+
+#      console.log("height = " + ht+'px')
+#    $(".genob").css("height",'100px')
+    $('<div></div>',{id: @id,class :@clss}).appendTo('#editor')
+#  console.log $('#id').height()
+
+  height: (ht)->
+#        ht = $('.width_input').val()
+        $(".genob").css("height",ht + 'px')
+
+#    console.log("height = " + $ht+'px')
+
+#  width: (@id)->
+#      $wt = $('.width_input').val()
+#      console.log("width = " + $wt)
+
+
+
+
+#
+#$window.onload ->
+#  $("#layout").on "click", ->
+#      $(this).addClass("obstyle")
+#      $(this).siblings('.inob').removeClass('obstyle')
+#      nova = new core 'id_test','id_class'
+#      console.log "grnrated"
+#      $('#id_test').css("height","100px")
+#      nova.height()
+#
+#
+#  class core
+#    constructor: (@id, @clss)->
+#      $build = "<div id= '#{@id}' class = '#{@clss}'></div>"
+#      $('#editor').append($build)
+#
+#
+#
+#   height: ->
+#      $ht = $("#{@id}").height()
+#      console.log($ht)
+#
+#   width: ->
+#      $wt = $(this).width()
+#      alert($wt)
+
+
+
+value = 0 ;
+
+$(".inob").on "click", ->
+#
+
+#      value = isNaN(value) ? 0 : value;
+      value++;
+      test = new core 'testx_' + value,'genob'
+#      test.height(500)
+
+      $(this).addClass("obstyle")
+      $(this).siblings('.inob').removeClass('obstyle')
+
+
+      $('.genob').draggable({containment: 'parent'})
+                 .addClass("teststr")
+      $("#editor").on "click", ".genob", ->
+          current_element = $(this)
+#  console.log(current_element)
+#  console.log current_element.attr("id")
+#  return current_element
+#      output = {
+#          current: current_element
+#        }
+#
+##        console.log(output.current)
+#        element_id = current_element.attr("id")
+#        console.log(element_id)
+
+        $('.width_input').change ->
+          ht = $('.width_input').val()
+          console.log(ht)
+          test.height(ht)
+
+
+#      test.height(testx)
+
+
+
+
+
+#      test.width(testx)
+
+
+#
+#  return $('#teststr')
+
+#$('#editor').on("click",".genob",->
+#                    console.log $(this).attr("id")
+#
+#                  )
+
+#$('#editor').on "click",".genob", (event) ->
+#  event.preventDefault();
+#  console.log "test"
+#  wt = '500px';
+#  $(this).css('width',wt);
+#  console.log "test"
+
+
+
+
+
+
+
+
+
+
+# console.log $(current_element).height()
+#  inh = $(current_element).innerHeight()
+#  inw = $(current_element).innerWidth()
+#  console.log inh
+#  console.log inw
+#  inhp = $(current_element).outerHeight(true)
+#  inwp = $(current_element).outerWidth(true)
+#  console.log inhp
+#  console.log inwp
+#  console.log inhp-inh
+#  console.log inwp-inw
+#  pos = $(current_element).position()
+#  console.log "left"+pos.left
+#  console.log "right"+ pos.top
+#
+#
+#
+
+
+
+

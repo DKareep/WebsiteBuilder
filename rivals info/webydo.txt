@@ -1,0 +1,45 @@
+Webydo
+#######
+
+Shape﻿
+
+	Fit:none
+	Fit to height
+	Fit to width
+	Fit to Site
+	Fit to big
+
+Image
+
+Text
+
+Video
+
+Flash
+
+Gallery
+
+	Slider
+	Matrix
+
+Form
+
+	TextInput
+	DropDown
+	Checkbox
+	Radio
+	/*We can also add the following properties*/
+	Shapes
+	Image
+	Text
+
+Widgets
+
+	iFrames
+	HTML
+	Ecwid Store
+
+Menu
+
+	Horizontal
+	Vertical
